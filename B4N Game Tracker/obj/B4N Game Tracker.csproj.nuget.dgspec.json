@@ -1,0 +1,83 @@
+{
+  "format": 1,
+  "restore": {
+    "H:\\Projects\\Kristoffer_Snopestad_Soderkvist_(191284)\\B4N Game Tracker\\B4N Game Tracker\\B4N Game Tracker.csproj": {}
+  },
+  "projects": {
+    "H:\\Projects\\Kristoffer_Snopestad_Soderkvist_(191284)\\B4N Game Tracker\\B4N Game Tracker\\B4N Game Tracker.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "H:\\Projects\\Kristoffer_Snopestad_Soderkvist_(191284)\\B4N Game Tracker\\B4N Game Tracker\\B4N Game Tracker.csproj",
+        "projectName": "B4N Game Tracker",
+        "projectPath": "H:\\Projects\\Kristoffer_Snopestad_Soderkvist_(191284)\\B4N Game Tracker\\B4N Game Tracker\\B4N Game Tracker.csproj",
+        "packagesPath": "C:\\Users\\Bass4Nation\\.nuget\\packages\\",
+        "outputPath": "H:\\Projects\\Kristoffer_Snopestad_Soderkvist_(191284)\\B4N Game Tracker\\B4N Game Tracker\\obj\\",
+        "projectStyle": "PackageReference",
+        "skipContentFileWrite": true,
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+          "C:\\Program Files (x86)\\Microsoft SDKs\\UWPNuGetPackages\\"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Bass4Nation\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "uap10.0.19041"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "uap10.0.19041": {
+            "projectReferences": {}
+          }
+        }
+      },
+      "frameworks": {
+        "uap10.0.19041": {
+          "dependencies": {
+            "Microsoft.NETCore.UniversalWindowsPlatform": {
+              "target": "Package",
+              "version": "[6.2.11, )"
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[13.0.1, )"
+            }
+          },
+          "imports": [
+            "net461"
+          ],
+          "assetTargetFallback": true,
+          "warn": true
+        }
+      },
+      "runtimes": {
+        "win10-arm": {
+          "#import": []
+        },
+        "win10-arm-aot": {
+          "#import": []
+        },
+        "win10-arm64-aot": {
+          "#import": []
+        },
+        "win10-x64": {
+          "#import": []
+        },
+        "win10-x64-aot": {
+          "#import": []
+        },
+        "win10-x86": {
+          "#import": []
+        },
+        "win10-x86-aot": {
+          "#import": []
+        }
+      }
+    }
+  }
+}

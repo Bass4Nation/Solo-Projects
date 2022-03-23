@@ -1,0 +1,51 @@
+﻿<Page
+    x:Class="B4N_Game_Tracker.Apex"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:B4N_Game_Tracker"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+
+    <Grid>
+        <!--TextBlocks-->
+        <TextBlock Name="FrontPageTitle" TextAlignment="Center" HorizontalAlignment="Left" Margin="-12,65,0,0" Text="Apex Legends" TextWrapping="Wrap" VerticalAlignment="Top" Height="173" Width="1495" SelectionChanged="TextBlock_SelectionChanged" FontSize="100"/>
+        <TextBlock HorizontalAlignment="Center" Margin="-200,467,0,0" Text="Username :" TextWrapping="Wrap" VerticalAlignment="Top" SelectionChanged="TextBlock_SelectionChanged_1" FontSize=" 40"/>
+        <TextBlock Name="UserNameDisplay"  HorizontalAlignment="Center" Margin="0,684,0,0" Text="Stats Will show here." TextWrapping="Wrap" VerticalAlignment="Top"/>
+        <TextBlock Name="TestInfdoOnline"  HorizontalAlignment="Left" Margin="19,178,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Height="118" Width="209" Text="
+   Usernames to online database.
+                   Bass4Nation_B4N == Origin
+                   Die-Reichtangle == Origin
+                   Bass4Nation_YT == Playstation 4
+                   klingsworld == Xbox
+                   " RenderTransformOrigin="0.488,1.271" 
+                   />
+        <TextBlock Name="TestInfoLocal"  HorizontalAlignment="Left" Margin="21,305,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Height="118" Width="209" Text="    Usernames to Local database.                    Bass4Nation_B4N == Origin                    FuzzyCookie == Origin                    MoneyCannon == Playstation 4                    Slopeiz == Xbox                    " 
+                   />
+        <TextBlock Name="KillsDisplay"  HorizontalAlignment="Center" Margin="0,712,0,0" Text="Kills" TextWrapping="Wrap" VerticalAlignment="Top"/>
+        <TextBlock HorizontalAlignment="Center" Margin="-247,712,0,0" Text="Kills : " TextWrapping="Wrap" VerticalAlignment="Top"/>
+        <TextBlock Name="DeathDisplay"  HorizontalAlignment="Center" Margin="0,736,0,0" Text="Death" TextWrapping="Wrap" VerticalAlignment="Top"/>
+        <TextBlock HorizontalAlignment="Center" Margin="-260,736,0,-4" Text="Death : " TextWrapping="Wrap" VerticalAlignment="Top" RenderTransformOrigin="1.75,0.474"/>
+        <TextBlock Name="LastPlayedCharacter"  HorizontalAlignment="Center" Margin="0,756,0,0" Text="Character" TextWrapping="Wrap" VerticalAlignment="Top"/>
+        <TextBlock HorizontalAlignment="Center" Margin="-343,756,0,0" Text="Character Last used :" TextWrapping="Wrap" VerticalAlignment="Top"/>
+        <!--TextBoxes-->
+        <TextBox Name="Username" HorizontalAlignment="Center" Margin="250,480,0,0" Text="" TextWrapping="Wrap" VerticalAlignment="Top" Height="40" Width="235" TextChanged="UsernameInput" RenderTransformOrigin="0.511,-0.778"/>
+        <!--Buttons-->
+        <Button Content="Search" Margin="0,630,0,0" VerticalAlignment="Top" Click="Button_Click_Search" HorizontalAlignment="Center"/>
+        <Button Content="Back" Margin="-2,0,0,0" VerticalAlignment="Top" Height="65" Width="172" Click="Button_Back"/>
+
+        <!-- Checkboxes-->
+
+        <ComboBox  x:Name="PlayerPlatform" Header="Platform" PlaceholderText="Choose a platform" Width="200" Margin="250,545,0,0" SelectionChanged="PlayerPlatform_SelectionChanged" RenderTransformOrigin="3.175,3.909" HorizontalAlignment="Center">
+            <x:String>Origin</x:String>
+            <x:String>Playstation 4</x:String>
+            <x:String>Xbox</x:String>
+        </ComboBox>
+        <ComboBox  x:Name="DatabaseChoosen" Header="Database" PlaceholderText="Choose a Database" Width="200" Margin="-200,545,0,0" SelectionChanged="Database_SelectionChanged" RenderTransformOrigin="3.175,3.909" HorizontalAlignment="Center">
+            <x:String>Local</x:String>
+            <x:String>Online</x:String>
+        </ComboBox>
+
+    </Grid>
+</Page>
