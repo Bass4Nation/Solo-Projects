@@ -1,0 +1,18 @@
+﻿<Page
+    x:Class="RandomFact.RandomFacts"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:RandomFact"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+
+    <Grid>
+        <TextBlock x:Name="title" HorizontalAlignment="Left" Margin="535,150,0,0" Text="Random Facts" TextWrapping="Wrap" VerticalAlignment="Top" FontSize="48" FontWeight="Bold"/>
+        <Button x:Name="Next_Fact" Content="Next Fact" Margin="155,770,0,0" VerticalAlignment="Top" Height="107" Width="480" FontSize="48" FontWeight="Bold"/>
+        <Button x:Name="Source" Content="Go to source" Margin="865,768,0,0" VerticalAlignment="Top" Height="107" Width="480" FontSize="48" FontWeight="Bold"/>
+        <Button x:Name="Back" Content="Back to Main" VerticalAlignment="Top" Height="92" Width="245" FontSize="36" FontWeight="Bold" Click="Back_Click"/>
+
+    </Grid>
+</Page>
