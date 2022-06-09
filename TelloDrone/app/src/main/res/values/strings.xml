@@ -1,7 +1,0 @@
-<resources>
-    <string name="app_name">TelloDrone</string>
-    <string name="connection">Start SDK Connection</string>
-    <string name="takeoff">Takeoff</string>
-    <string name="land">Land</string>
-    <string name="left">Turn left</string>
-</resources>
